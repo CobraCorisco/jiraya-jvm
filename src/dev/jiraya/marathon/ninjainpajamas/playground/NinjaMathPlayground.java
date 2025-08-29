@@ -21,5 +21,7 @@ public class NinjaMathPlayground {
 
         ninjaCalculator.addChakra(naruto, 100);
         System.out.printf("%s's Chakra: %d%n", naruto.name, naruto.chakra);
+
+        ninjaCalculator.averageChakra(120, 230, 110);
     }
 }

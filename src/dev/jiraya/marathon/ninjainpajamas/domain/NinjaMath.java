@@ -13,4 +13,16 @@ public class NinjaMath {
     public void addChakra(Ninja ninja, int chakra) {
         ninja.chakra += chakra;
     }
+
+    public void averageChakra(int... chakras) {
+        int sum = 0;
+        int average;
+        for (int chakra : chakras) {
+            sum += chakra;
+        }
+        average = sum / chakras.length;
+        System.out.println("Average chakra: " + average);
+    }
+
+
 }
