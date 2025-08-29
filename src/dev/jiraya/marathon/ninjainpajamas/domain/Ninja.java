@@ -5,4 +5,9 @@ public class Ninja {
     public int age;
     public int chakra;
     public RANK rank;
+
+    public void status() {
+        System.out.printf("Name: %s | age: %d | chakra: %d | rank: %s\n",
+                this.name, this.age, this.chakra, this.rank);
+    }
 }
